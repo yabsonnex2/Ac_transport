@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    backgrounD:linear-gradient(to left, rgb(20, 190, 20), orangered);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    color:white;
+}
+
+
+.retour{
+   font-size:22px;
+   height:60px;
+   background-color: #131313;
+   width:250px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:20px;
+   border-radius:50px;
+   text-decoration:none;
+   color:aliceblue;
+}
+
+.retour i{
+   font-size:40px;
+   position:relative;
+   right:20px;
+   animation: agite 2s infinite ease-in-out;
+}
+
+.l2{
+    position: relative;
+    left:130px
+}
+
+.temps{
+    font-size: 60px;
+    color: rgb(19, 19, 19);
+    margin-left:5px
+}
+
+@keyframes agite{
+    0%{
+        transform: translateX(15px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:810px){
+    body{
+        font-size:35px
+    }
+}
+
+@media only screen and (max-width:700px){
+    body{
+        font-size:30px
+    }
+
+    .l2{
+    position: relative;
+    left:100px
+}
+
+.temps{
+    font-size: 50px;
+}
+
+.retour{
+    font-size:20px
+}
+
+.retour i{
+    font-size:35px
+}
+}
+
+
+@media only screen and (max-width:610px){
+    body{
+        font-size:25px
+    }
+
+    .l2{
+    position: relative;
+    left:80px
+}
+
+.temps{
+    font-size: 40px;
+}
+
+.retour{
+    font-size:20px;
+    height:40px;
+    width:180px
+}
+
+.retour i{
+    font-size:35px
+}
+}
+
+
+@media only screen and (max-width:500px){
+    body{
+        font-size:20px
+    }
+
+    .l2{
+    position: relative;
+    left:60px
+}
+
+.temps{
+    font-size: 30px;
+}
+
+.retour{
+    font-size:15px;
+    height:30px;
+    width:140px
+}
+
+.retour i{
+    font-size:25px
+}
+}
+
+
+@media only screen and (max-width:400px){
+    body{
+        font-size:15px
+    }
+
+    .l2{
+    position: relative;
+    left:50px
+}
+
+.temps{
+    font-size: 25px;
+}
+
+.retour{
+    font-size:15px;
+    height:30px;
+    width:140px
+}
+
+.retour i{
+    font-size:23px
+}
+}
+
+@media only screen and (max-width:300px){
+    body{
+        font-size:10px
+    }
+
+    .l2{
+    position: relative;
+    left:30px
+}
+
+.temps{
+    font-size: 20px;
+}
+
+.retour{
+    font-size:10px;
+    height:20px;
+    width:100px
+}
+
+.retour i{
+    font-size:20px
+}
+}
